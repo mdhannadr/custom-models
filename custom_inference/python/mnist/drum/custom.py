@@ -1,11 +1,9 @@
-import os
-os.environ["SM_FRAMEWORK"] = "tf.keras"
-
 import numpy as np
 import pandas as pd
 from tensorflow import keras
 from tensorflow.keras import layers
 from keras.models import Sequential
+import os
 import io
 from io import StringIO
 
